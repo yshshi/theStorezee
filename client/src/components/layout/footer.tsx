@@ -165,7 +165,7 @@ export default function Footer() {
               © 2025 Storezee. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <span>Made with ❤️ in India for India</span>
+              <span>Made with ❤️ in India and for Moon</span>
               <div className="flex space-x-4">
                 <img 
                   src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
