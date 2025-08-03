@@ -190,7 +190,7 @@ var vite_config_default = defineConfig({
       deny: ["**/.*"]
     }
   },
-  base: "/theStorezee"
+  base: "/theStorezee/"
 });
 
 // server/vite.ts
