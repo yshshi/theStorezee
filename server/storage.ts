@@ -37,7 +37,7 @@ export class MemStorage implements IStorage {
       {
         id: randomUUID(),
         question: "Is my luggage safe and secure?",
-        answer: "Yes! We use smart-lock technology to track your luggage in real-time. All our storage partners are verified, and we provide insurance coverage for your belongings.",
+        answer: "Yes! We use smart technology to track your luggage in real-time. All our storage partners are verified, and we provide insurance coverage for your belongings.",
         category: "safety",
         order: 1
       },

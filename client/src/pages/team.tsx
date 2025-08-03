@@ -2,130 +2,141 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Linkedin, Twitter, Mail } from "lucide-react";
 import { Link } from "wouter";
-
+// Import the logo image relative to this file
+import yash from "../assests/yash.jpeg"
+import yashpic from "../assests/yash.jpeg"; // adjust the relative path if needed
+import ashutosh from "../assests/ashutosh.jpeg";
+import gaurav from "../assests/gaurav.jpeg";
+import rahul1 from "../assests/rahulfinal.jpeg";
+import rahul2 from "../assests/rahuk2.jpeg";
+import ritik from "../assests/ritikiorg.jpeg";
 export default function Team() {
   const teamMembers = [
     {
-      name: "Alex Johnson",
-      role: "Co-Founder & CEO",
-      description: "Former product lead at major travel platform. Passionate about solving real traveler problems with innovative technology.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-      linkedin: "#",
-      twitter: "#",
-      email: "alex@storezee.com"
+      name: "Yash Kant Singh",
+      role: "Founder & CEO",
+      description: "Former Software Developer at major tech startup. Passionate about solving real traveler problems with innovative technology.",
+      image: yashpic,
+      linkedin: "https://www.linkedin.com/in/yash-singh-034bb8221",
+      twitter: "https://x.com/YshSngh2?t=J9ICeydbJCPQaW_mv9nqFQ&s=09",
+      email: "yashkantsingh3@gmail.com"
     },
     {
-      name: "Sarah Chen",
-      role: "Co-Founder & CTO",
-      description: "Tech veteran with 10+ years in mobile and IoT development. Leads our smart-lock technology and platform architecture.",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b1c1?w=400&h=400&fit=crop&crop=face",
-      linkedin: "#",
-      twitter: "#",
-      email: "sarah@storezee.com"
+      name: "Ashutosh Singh",
+      role: "CTO",
+      description: "Former cloud engineer with deep expertise in server and infra setup. Oversees all technical set-up ensure smooth software developement and drives platform scalability.",
+      image: ashutosh,
+      linkedin: "https://www.linkedin.com/in/ashutosh-singh-10b62a19b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      twitter: "https://x.com/singh_ashu10?s=21",
+      email: "ashutosh.singh2780@gmail.com"
     },
     {
-      name: "Raj Patel",
+      name: "Rahul Mahato",
+      role: "Head of Finance",
+      description: "Expertise in finance and user management .Numbers-first leader who manages our cash flow, compliance, and forecasting. Keeps the company financially strong and future-ready.",
+      image: rahul1,
+      linkedin: "https://www.linkedin.com/in/rahul-mahato-288366357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitter: "https://x.com/rahulmahato45",
+      email: "mahatorahul81@gmail.com"
+    },
+    {
+      name: "Gaurav Singh",
+      role: "Head of Management",
+      description: "An expert in operations and team coordination, Gaurav ensures smooth execution across departments. With a sharp focus on strategy and people management, he drives our vision into action.",
+      image: gaurav,
+      linkedin: "#",
+      twitter: "https://x.com/Gauravspecter?t=O8phmE51CI23dRC_zOmAYQ&s=08",
+      email: "gauravmoon72@gmail.com"
+    },
+    {
+      name: "Ritik Choudhary",
       role: "Head of Operations",
-      description: "Logistics expert who built our Saathi partner network. Ensures seamless delivery operations across all locations.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      description: "Operations expert who built our Saathi partner network. Ensures seamless delivery operations across all locations.",
+      image: ritik,
       linkedin: "#",
       twitter: "#",
-      email: "raj@storezee.com"
+      email: "Kumarritik1227@gmail.com"
     },
     {
-      name: "Maya Singh",
-      role: "Head of Partnerships",
+      name: "Rahul Kumar Mahto",
+      role: "Head of Logistics",
       description: "Business development leader who expands our storage location network and builds relationships with local communities.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+      image: rahul2,
       linkedin: "#",
       twitter: "#",
-      email: "maya@storezee.com"
+      email: "rk3464320@gmail.com"
     }
   ];
 
   return (
     <div className="py-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-16">
+      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Meet Our Team
+            The People Powering Storezee
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We're a passionate group of entrepreneurs, engineers, and operators 
-            dedicated to revolutionizing the travel experience for everyone.
+            Entrepreneurs. Engineers. Dreamers. All focused on redefining travel.
+            <p>People build companies. Our team builds the solutions to let you fly.</p>
           </p>
         </div>
       </section>
 
       {/* Team Members */}
       <section className="py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {teamMembers.map((member, index) => (
-              <Card key={index} className="border-0 shadow-xl rounded-3xl overflow-hidden">
-                <CardContent className="p-0">
-                  <div className="relative">
-                    <div className="aspect-w-16 aspect-h-12">
-                      <img
-                        src={member.image}
-                        alt={member.name}
-                        className="w-full h-64 object-cover"
-                      />
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute bottom-4 left-6 text-white">
-                      <h3 className="text-xl font-bold">{member.name}</h3>
-                      <p className="text-blue-200">{member.role}</p>
-                    </div>
-                  </div>
-                  
-                  <div className="p-6">
-                    <p className="text-gray-600 mb-6 leading-relaxed">
-                      {member.description}
-                    </p>
-                    
-                    <div className="flex items-center space-x-4">
-                      <a 
-                        href={member.linkedin} 
-                        className="p-2 bg-blue-100 rounded-xl hover:bg-blue-200 transition-colors"
-                        aria-label={`${member.name} LinkedIn`}
-                      >
-                        <Linkedin className="w-5 h-5 text-blue-600" />
-                      </a>
-                      <a 
-                        href={member.twitter} 
-                        className="p-2 bg-sky-100 rounded-xl hover:bg-sky-200 transition-colors"
-                        aria-label={`${member.name} Twitter`}
-                      >
-                        <Twitter className="w-5 h-5 text-sky-600" />
-                      </a>
-                      <a 
-                        href={`mailto:${member.email}`} 
-                        className="p-2 bg-gray-100 rounded-xl hover:bg-gray-200 transition-colors"
-                        aria-label={`Email ${member.name}`}
-                      >
-                        <Mail className="w-5 h-5 text-gray-600" />
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+  <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {teamMembers.map((member, index) => (
+        <Card key={index} className="border-0 shadow-xl rounded-3xl overflow-hidden">
+          <CardContent className="p-0">
+            <div className="relative">
+              <div className="aspect-w-1 aspect-h-1">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-40 h-40 object-cover mx-auto"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div className="absolute bottom-4 left-4 text-white">
+                <h3 className="text-lg font-semibold">{member.name}</h3>
+                <p className="text-blue-200 text-sm">{member.role}</p>
+              </div>
+            </div>
+            <div className="p-4">
+              <p className="text-gray-600 text-sm mb-4">
+                {member.description}
+              </p>
+              <div className="flex items-center space-x-3">
+                <a href={member.linkedin} className="p-2 bg-blue-100 rounded-xl hover:bg-blue-200 transition-colors">
+                  <Linkedin className="w-4 h-4 text-blue-600" />
+                </a>
+                <a href={member.twitter} className="p-2 bg-sky-100 rounded-xl hover:bg-sky-200 transition-colors">
+                  <Twitter className="w-4 h-4 text-sky-600" />
+                </a>
+                <a href={`mailto:${member.email}`} className="p-2 bg-gray-100 rounded-xl hover:bg-gray-200 transition-colors">
+                  <Mail className="w-4 h-4 text-gray-600" />
+                </a>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Role Highlights */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              What Makes Us Tick
+              What Drives Us Forward
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our diverse backgrounds and shared passion for travel innovation 
-              drive us to build the best possible experience for our users.
+              Our mission is powered by passion, purpose, and people. We’re not just building a service — we’re solving real problems and reshaping how the world travels, stores, and moves freely.
             </p>
           </div>
 
@@ -135,10 +146,9 @@ export default function Team() {
                 <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl">🚀</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Innovation</h3>
+                <h3 className="text-xl font-semibold mb-4">Ingenuity at the Core</h3>
                 <p className="text-gray-600">
-                  We constantly push boundaries with new technology and creative 
-                  solutions to make travel more convenient.
+                  We’re always rethinking the norm — using smart tech and user-first thinking to make mobility seamless, secure, and stress-free.
                 </p>
               </CardContent>
             </Card>
@@ -148,10 +158,9 @@ export default function Team() {
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl">🤝</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Collaboration</h3>
+                <h3 className="text-xl font-semibold mb-4">Rooted in Local Strength</h3>
                 <p className="text-gray-600">
-                  We work closely with local communities and partners to create 
-                  mutually beneficial relationships.
+                  Our community-first model empowers local partners and neighborhoods, turning idle spaces into opportunity hubs.
                 </p>
               </CardContent>
             </Card>
@@ -161,10 +170,9 @@ export default function Team() {
                 <div className="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl">💚</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Impact</h3>
+                <h3 className="text-xl font-semibold mb-4">Impact with Intention</h3>
                 <p className="text-gray-600">
-                  Every day we focus on creating positive impact for travelers, 
-                  partners, and local communities.
+                  From easing travel to solving everyday storage challenges — we’re creating a real difference in how people live, move, and experience freedom.
                 </p>
               </CardContent>
             </Card>
@@ -176,11 +184,10 @@ export default function Team() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Join Our Growing Team
+             Be Part of the Movement
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            We're always looking for passionate individuals who want to help 
-            shape the future of travel. Interested in working with us?
+            We’re not just building a product — we’re starting a travel revolution. If you're passionate about solving real-world problems, let's build the future together.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">

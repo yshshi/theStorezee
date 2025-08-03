@@ -4,6 +4,9 @@ import { Mail, Phone, MapPin, Download } from "lucide-react";
 import { SiX, SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
 import { Link } from "wouter";
 
+// Import the logo image relative to this file
+import storezeeLogo from "../../assests/storezee_logo.png"; // adjust the relative path if needed
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
@@ -13,18 +16,20 @@ export default function Footer() {
           
           {/* Company Info */}
           <div className="space-y-6">
-            <Link href="/">
-              <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">S</span>
-                </div>
-                <span className="text-xl font-bold">Storezee</span>
-              </div>
-            </Link>
+             <Link href="/">
+            <div className="flex items-center space-x-2 cursor-pointer">
+              <img
+                src={storezeeLogo}
+                alt="Storezee Logo"
+                width={64}
+                height={64}
+                className="rounded-lg"
+              />
+              <span className="text-xl font-bold text-white">Storezee</span>
+            </div>
+          </Link>
             <p className="text-gray-300 leading-relaxed">
-              Your personal luggage assistant for secure storage at verified local points 
-              with smart-lock tracking and Saathi delivery partners.
-            </p>
+              Your personal luggage assistant — offering secure, on-demand storage at verified local spots with smart tracking and trusted Saathi delivery partners.</p>
             <div className="flex space-x-4">
               <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
                 <SiX className="w-5 h-5" />
@@ -110,11 +115,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <span className="text-gray-300">+91 98765 43210</span>
+                <span className="text-gray-300">+91 70915 17586</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span className="text-gray-300">Mumbai, India</span>
+                <span className="text-gray-300">Dhanbad, India</span>
               </div>
             </div>
             
@@ -160,7 +165,7 @@ export default function Footer() {
               © 2025 Storezee. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <span>Made with ❤️ in India</span>
+              <span>Made with ❤️ in India for India</span>
               <div className="flex space-x-4">
                 <img 
                   src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 

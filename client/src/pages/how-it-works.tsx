@@ -7,13 +7,13 @@ export default function HowItWorks() {
   return (
     <div className="py-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-16">
+      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            How Storezee Works
+            Storezee: Drop the Bag, Not the Moment
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Five simple steps to store your luggage securely and explore your destination hands-free.
+            Skip the hassle of carrying bags. Here's how Storezee makes your journey effortless and secure in 5 easy steps.
           </p>
         </div>
       </section>
@@ -31,11 +31,11 @@ export default function HowItWorks() {
                     1
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-                    Select Nearby Locker
+                    Choose a Nearby Locker Point
                   </h2>
                 </div>
                 <p className="text-lg text-gray-600">
-                  Open the Storezee app and browse verified storage locations near you. 
+                  Open the Storezee app and based on your location, browse the verified storage locations near you. 
                   View photos, prices, and availability in real-time. Choose the most convenient spot.
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
@@ -56,7 +56,7 @@ export default function HowItWorks() {
                       <div className="text-white text-center">
                         <MapPin className="w-16 h-16 mx-auto mb-4" />
                         <p className="text-lg font-medium">Interactive Map View</p>
-                        <p className="text-blue-100">Find storage locations</p>
+                        <p className="text-blue-100">Select the nearest verified storage unit near you.</p>
                       </div>
                     </div>
                   </CardContent>
@@ -72,12 +72,11 @@ export default function HowItWorks() {
                     2
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-                    Confirm Pickup Time
+                    Book Pickup at Your Time and Location
                   </h2>
                 </div>
                 <p className="text-lg text-gray-600">
-                  Select your preferred pickup time and provide your current location. 
-                  Add any special instructions for our Saathi partner who will collect your luggage.
+                  Pick a convenient pickup time and share your location. Add any instructions for our Saathi — your personal luggage assistant.
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
                   <div className="flex items-center space-x-2">
@@ -96,8 +95,8 @@ export default function HowItWorks() {
                     <div className="bg-gradient-to-br from-secondary to-yellow-400 h-64 flex items-center justify-center">
                       <div className="text-gray-900 text-center">
                         <Clock className="w-16 h-16 mx-auto mb-4" />
-                        <p className="text-lg font-medium">Book Pickup Slot</p>
-                        <p className="text-yellow-800">Choose convenient time</p>
+                        <p className="text-lg font-medium">Book Pickup Time and Location</p>
+                        <p className="text-yellow-800">Choose your convenient storage unit booking time and pickup location.</p>
                       </div>
                     </div>
                   </CardContent>
@@ -113,12 +112,12 @@ export default function HowItWorks() {
                     3
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-                    Saathi Picks Up Your Luggage
+                    Saathi Arrives to Collect
                   </h2>
                 </div>
                 <p className="text-lg text-gray-600">
-                  Our trusted Saathi partner arrives at your location within 30-60 minutes. 
-                  They'll verify your identity, collect your luggage, and provide a receipt with tracking details.
+                  Our trusted Saathi partner arrives at your location within 15-30 minutes. 
+                  They'll verify your Booking-Id, collect your luggage , verify the luggage locks and real time luggage weight and images.
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
                   <div className="flex items-center space-x-2">
@@ -137,8 +136,8 @@ export default function HowItWorks() {
                     <div className="bg-gradient-to-br from-green-500 to-emerald-600 h-64 flex items-center justify-center">
                       <div className="text-white text-center">
                         <Truck className="w-16 h-16 mx-auto mb-4" />
-                        <p className="text-lg font-medium">Saathi Collection</p>
-                        <p className="text-green-100">Secure pickup service</p>
+                        <p className="text-lg font-medium">Background-Checked Saathi's</p>
+                        <p className="text-green-100">Secure pickup service with full user satisfaction.</p>
                       </div>
                     </div>
                   </CardContent>
@@ -154,12 +153,11 @@ export default function HowItWorks() {
                     4
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-                    Track Live Until Stored Safely
+                    Track Your Bag in Real-Time
                   </h2>
                 </div>
                 <p className="text-lg text-gray-600">
-                  Follow your luggage's journey in real-time through the app. 
-                  Receive notifications when it's securely stored with smart-lock protection at your chosen location.
+                  Follow your luggage on the map from pickup to storage. Get notified once it’s safely stored in a camera-monitored, cleaned and secure units.
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
                   <div className="flex items-center space-x-2">
@@ -168,7 +166,7 @@ export default function HowItWorks() {
                   </div>
                   <div className="flex items-center space-x-2">
                     <Shield className="w-4 h-4" />
-                    <span>Smart-lock security</span>
+                    <span>Maximum Luggage Security</span>
                   </div>
                 </div>
               </div>
@@ -195,17 +193,16 @@ export default function HowItWorks() {
                     5
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-                    Retrieve When Needed
+                    Get It Back Anytime
                   </h2>
                 </div>
                 <p className="text-lg text-gray-600">
-                  When you're ready to collect your luggage, simply schedule a pickup through the app. 
-                  Our Saathi partner will deliver it back to your desired location within 30-60 minutes.
+                  When you're ready to collect your luggage, Schedule a return via the app, and our Saathi will deliver it back to you, wherever you are.
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
                   <div className="flex items-center space-x-2">
                     <Clock className="w-4 h-4" />
-                    <span>Flexible retrieval</span>
+                    <span>Return When You Need</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Truck className="w-4 h-4" />
@@ -219,8 +216,8 @@ export default function HowItWorks() {
                     <div className="bg-gradient-to-br from-orange-500 to-red-500 h-64 flex items-center justify-center">
                       <div className="text-white text-center">
                         <CheckCircle className="w-16 h-16 mx-auto mb-4" />
-                        <p className="text-lg font-medium">Easy Retrieval</p>
-                        <p className="text-orange-100">Get luggage back</p>
+                        <p className="text-lg font-medium">Easy Retrieval of Luggage</p>
+                        <p className="text-orange-100">Get luggage back , any time , any place - we got your back.</p>
                       </div>
                     </div>
                   </CardContent>
@@ -238,7 +235,7 @@ export default function HowItWorks() {
             Ready to Experience Storezee?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Join thousands of travelers who trust Storezee for secure luggage storage.
+            Whether it’s travel, errands, or emergencies — your bags are safe with Storezee
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">

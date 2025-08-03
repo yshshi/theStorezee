@@ -49,14 +49,13 @@ export default function FAQ() {
   return (
     <div className="py-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-16">
+      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Find answers to common questions about Storezee's luggage storage service. 
-            Can't find what you're looking for? Contact our support team.
+            Got questions? We’ve got answers. Here’s everything you need to know about how Storezee works. Still curious? Reach out to our support team — we’re here to help!
           </p>
         </div>
       </section>
@@ -178,7 +177,7 @@ export default function FAQ() {
           </div>
           
           <div className="mt-8 text-sm text-gray-500">
-            <p>Email: support@storezee.com | Phone: +91 98765 43210</p>
+            <p>Email: support@storezee.com | Phone: +91 7091517586</p>
             <p>Average response time: Under 2 hours</p>
           </div>
         </div>

@@ -49,14 +49,13 @@ export default function Contact() {
   return (
     <div className="py-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-16">
+      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Get in Touch
+            We’d Love to Hear From You
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Have questions about our service? Want to become a partner? 
-            Or need help with your booking? We're here to help.
+            Whether you’re a traveler, partner, or just curious—reach out. We're always happy to help.
           </p>
         </div>
       </section>
@@ -176,7 +175,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Phone</h4>
-                        <p className="text-gray-600">+91 98765 43210</p>
+                        <p className="text-gray-600">+91 70915 17586</p>
                         <p className="text-sm text-gray-500">Available 24/7</p>
                       </div>
                     </div>
@@ -187,7 +186,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Office</h4>
-                        <p className="text-gray-600">123 Business District<br />Mumbai, India 400001</p>
+                        <p className="text-gray-600">Dhanbad<br />Jharkhand, India 828109</p>
                         <p className="text-sm text-gray-500">Mon-Fri 9AM-6PM</p>
                       </div>
                     </div>
@@ -248,8 +247,7 @@ export default function Contact() {
             Business Inquiries
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Interested in partnering with us or have a business proposal? 
-            We'd love to explore opportunities together.
+            Looking to collaborate, invest, or join our mission to transform travel convenience? Let’s start the conversation.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -7,7 +7,7 @@ export default function Terms() {
             Terms of Service
           </h1>
           <p className="text-lg text-gray-600">
-            Last updated: January 2025
+            Last updated: July 2025
           </p>
         </div>
 
@@ -50,6 +50,8 @@ export default function Terms() {
 
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Prohibited Items</h2>
+              <p><strong>Do not store any valuables or prohibited items inside your luggage.
+Storezee and its partners are not responsible for any claims of missing items post-delivery, especially in cases where luggage includes jewelry, electronics, cash, or any other valuables items</strong></p>
               <p className="text-gray-600 leading-relaxed">
                 The following items are strictly prohibited from storage:
               </p>
@@ -57,7 +59,7 @@ export default function Terms() {
                 <li>Illegal substances or contraband</li>
                 <li>Weapons, explosives, or dangerous materials</li>
                 <li>Perishable food items or liquids</li>
-                <li>Valuable items exceeding ₹50,000 in value</li>
+                <li>Valuable items exceeding ₹5,000 in value</li>
                 <li>Items with strong odors or that pose health risks</li>
               </ul>
             </section>
@@ -65,7 +67,7 @@ export default function Terms() {
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Liability and Insurance</h2>
               <p className="text-gray-600 leading-relaxed">
-                Storezee provides basic insurance coverage for stored items up to ₹25,000 per bag. 
+                Storezee provides basic insurance coverage for stored items up to ₹5,000 per bag. 
                 We are not liable for:
               </p>
               <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2">
@@ -110,8 +112,8 @@ export default function Terms() {
               </p>
               <div className="mt-4 text-gray-600">
                 <p>Email: legal@storezee.com</p>
-                <p>Phone: +91 98765 43210</p>
-                <p>Address: 123 Business District, Mumbai, India 400001</p>
+                <p>Phone: +91 70915 17586</p>
+                <p>Address: Dhanbad, Jharkhand, India 828109</p>
               </div>
             </section>
           </div>

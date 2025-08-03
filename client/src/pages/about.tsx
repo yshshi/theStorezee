@@ -7,14 +7,23 @@ export default function About() {
   return (
     <div className="py-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-16">
+      <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            About Storezee
+            About Storezee, about us!
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We're revolutionizing travel by solving one of the most common problems travelers face: 
-            what to do with luggage when exploring a new city.
+            <strong>We’re here to revolutionize freedom of movement.</strong>
+            For too long, luggage has chained us down — dragging us, limiting us.
+          </p>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <strong>Storezee breaks those chains.</strong>
+           We give you the freedom to explore, to live, to move — without baggage.
+           We’re not just a service
+           <strong>— we’re your trusted companion on every journey.</strong>
+          </p>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <strong>Storezee — Freedom begins when the weight ends.</strong>
           </p>
         </div>
       </section>
@@ -34,9 +43,13 @@ export default function About() {
                   <h2 className="text-2xl font-bold text-gray-900">Our Vision</h2>
                 </div>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  To create a world where travelers can explore any destination freely, 
-                  without the burden of carrying luggage. We envision seamless travel 
-                  experiences where convenience and security go hand in hand.
+                 <strong>To create a world where no one is held back by baggage — physical or mental.</strong>
+                 <p>
+                  We believe freedom begins when you're unburdened.
+Whether you're exploring a city, chasing dreams, or simply taking a break —
+                  <strong>Storezee is here to carry the load, so you don’t have to.</strong>We're not just storing luggage —
+                  <strong>we're enabling moments, movement, and memories.</strong>
+                 </p>
                 </p>
               </CardContent>
             </Card>
@@ -51,9 +64,10 @@ export default function About() {
                   <h2 className="text-2xl font-bold text-gray-900">Our Mission</h2>
                 </div>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  To provide travelers with secure, convenient, and affordable luggage 
-                  storage solutions through a network of verified local partners, 
-                  powered by smart technology and exceptional service.
+                  <strong>To redefine how the world stores and moves — by making luggage-free living accessible to everyone.</strong>
+                  <p>We’re on a mission to remove the burden of bags from daily life, not just for travelers but for anyone, anywhere, anytime.
+With secure, verified spaces and a human-first delivery network,</p>
+                  <strong>Storezee empowers people to roam free, live light, and trust that we’ve got their back.</strong>
                 </p>
               </CardContent>
             </Card>
@@ -69,8 +83,11 @@ export default function About() {
               Why We Built Storezee
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Every traveler has experienced the frustration of carrying heavy luggage 
-              while exploring a new city. We saw this universal problem and decided to solve it.
+              We’ve all been there — stuck with bags when all we wanted was to roam freely.
+Travel isn’t meant to be weighed down by luggage. It’s about movement, discovery, and freedom.
+We built Storezee to lift that weight — literally.
+To give you the power to explore, shop, meet, and move without bags holding you back.
+Because we believe every moment matters — and luggage shouldn’t stand in the way.
             </p>
           </div>
 
@@ -83,10 +100,16 @@ export default function About() {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">The Problem</h3>
                   <p className="text-gray-600">
-                    Travelers often arrive early or depart late, leaving them with luggage 
-                    and nowhere to store it. Hotel storage isn't always available, and 
-                    traditional lockers are expensive and hard to find.
+                    Bags don’t belong everywhere.
+But life doesn’t wait for check-ins or safe spots.
+                  <p>Whether you’re:</p>
+                  <p>1. Heading to a stadium, where bags aren’t allowed,</p>
+                  <p>2. Attending an exam or job interview, where you must leave belongings outside,</p>
+                  <p>3. Visiting a hospital or government office, where security is tight,
+—you’re left with one question: Where do I keep my bag?</p>
+Most people ignore this everyday inconvenience — until they’re stuck with their luggage and no place to go.
                   </p>
+
                 </div>
               </div>
 
@@ -97,9 +120,10 @@ export default function About() {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Our Solution</h3>
                   <p className="text-gray-600">
-                    We created a network of verified local storage points with smart-lock 
-                    technology, backed by trusted Saathi delivery partners for seamless 
-                    pickup and drop-off service.
+                    Storezee is not just for travelers.
+It’s for anyone who needs to be free — even if just for a few hours.
+
+We’ve built a verified network of secure local storage spaces, supported by trusted Saathi and Rakshaks and smart tech. From pickup to storage to return — it’s effortless, fast, and safe.
                   </p>
                 </div>
               </div>
@@ -113,9 +137,9 @@ export default function About() {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Real Impact</h3>
                   <p className="text-gray-600">
-                    Since launch, we've helped thousands of travelers explore cities 
-                    hands-free, while providing income opportunities for local partners 
-                    and delivery providers.
+                    We’re not just building a luggage storage network — we’re designing a more convenient way of moving through life. With Storezee, we envision a future where no one is held back by bags — whether you're a traveler, a job applicant heading to an interview, a student at an exam center, or a parent at a hospital.
+                    Our platform aims to empower people with the freedom to focus on moments that matter — while creating thousands of micro-entrepreneurship opportunities for local storage rakshaks and delivery Saathis across India.
+                    By reducing stress, saving time, and generating income, Storezee is committed to making urban living smoother, safer, and smarter — one bag at a time.
                   </p>
                 </div>
               </div>
@@ -127,9 +151,7 @@ export default function About() {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Future Vision</h3>
                   <p className="text-gray-600">
-                    We're expanding to more cities and adding new features like 
-                    luggage cleaning, repairs, and personalized travel assistance 
-                    to make every journey memorable.
+                    Expanding across cities with smarter services — from luggage care to personalized travel support — to make every journey seamless and memorable.
                   </p>
                 </div>
               </div>
@@ -143,11 +165,10 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Our Values
+              Our Core Values
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              These core values guide everything we do, from product development 
-              to customer service and partner relationships.
+              The heart of Storezee beats with purpose — everything we create, offer, and improve is driven by these non-negotiable values.
             </p>
           </div>
 
@@ -159,8 +180,7 @@ export default function About() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Security First</h3>
                 <p className="text-gray-600">
-                  Your luggage's safety is our top priority. We use advanced technology 
-                  and thorough partner verification to ensure complete security.
+                 We don’t take chances with your belongings. From secure smart locks to verified partners, we’re obsessed with protecting what’s yours.
                 </p>
               </CardContent>
             </Card>
@@ -170,10 +190,9 @@ export default function About() {
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <Users className="w-8 h-8 text-gray-900" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Community Driven</h3>
+                <h3 className="text-xl font-semibold mb-4">Powered by Community</h3>
                 <p className="text-gray-600">
-                  We believe in empowering local communities by creating opportunities 
-                  for residents to earn income while helping travelers.
+                  We uplift locals by turning idle spaces into micro-businesses, generating income while building a network of helpful hands across every city.
                 </p>
               </CardContent>
             </Card>
@@ -183,10 +202,9 @@ export default function About() {
                 <div className="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <Heart className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Customer Obsessed</h3>
+                <h3 className="text-xl font-semibold mb-4">Traveler-Centric Mindset</h3>
                 <p className="text-gray-600">
-                  Every feature we build and every decision we make starts with 
-                  understanding and solving real traveler problems.
+                  We don’t just serve customers — we serve fellow explorers. Every feature is designed to eliminate friction, anxiety, and inconvenience from your journey.
                 </p>
               </CardContent>
             </Card>

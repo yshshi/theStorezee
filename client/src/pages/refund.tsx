@@ -46,7 +46,7 @@ export default function Refund() {
               </p>
               <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2">
                 <li>Full service fee refund plus insurance claim processing</li>
-                <li>Coverage up to ₹25,000 per bag for verified damage or loss</li>
+                <li>Coverage up to ₹5,000 per bag for verified damage or loss</li>
                 <li>Additional compensation may apply based on circumstances</li>
                 <li>Immediate investigation and resolution process</li>
               </ul>
@@ -142,7 +142,7 @@ export default function Refund() {
               </p>
               <div className="mt-4 text-gray-600">
                 <p>Email: refunds@storezee.com</p>
-                <p>Phone: +91 98765 43210</p>
+                <p>Phone: +91 70915 17586</p>
                 <p>In-app support: Available 24/7</p>
                 <p>Response time: Within 24 hours</p>
               </div>

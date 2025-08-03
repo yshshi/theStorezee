@@ -7,7 +7,7 @@ export default function Privacy() {
             Privacy Policy
           </h1>
           <p className="text-lg text-gray-600">
-            Last updated: January 2025
+            Last updated: July 2025
           </p>
         </div>
 
@@ -150,8 +150,8 @@ export default function Privacy() {
               </p>
               <div className="mt-4 text-gray-600">
                 <p>Email: privacy@storezee.com</p>
-                <p>Phone: +91 98765 43210</p>
-                <p>Address: 123 Business District, Mumbai, India 400001</p>
+                <p>Phone: +91 70915 17586</p>
+                <p>Address: Dhanbad, Jharkhand, India 828109</p>
               </div>
             </section>
           </div>
