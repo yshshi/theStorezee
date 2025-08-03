@@ -36,7 +36,7 @@ export default function Homepage() {
                     variant="outline"
                     className="text-lg px-8 py-6 rounded-2xl border-white text-black hover:bg-white hover:text-primary"
                   >
-                    How It Works
+                    How We Work
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </Link>
