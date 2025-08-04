@@ -136,7 +136,7 @@ export default function Team() {
               What Drives Us Forward
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our mission is powered by passion, purpose, and people. We’re not just building a service — we’re solving real problems and reshaping how the world travels, stores, and moves freely.
+              Our mission is powered by passion, purpose, and people. We’re not just building a service - we’re solving real problems and reshaping how the world travels, stores, and moves freely.
             </p>
           </div>
 
@@ -148,7 +148,7 @@ export default function Team() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Ingenuity at the Core</h3>
                 <p className="text-gray-600">
-                  We’re always rethinking the norm — using smart tech and user-first thinking to make mobility seamless, secure, and stress-free.
+                  We’re always rethinking the norm - using smart tech and user-first thinking to make mobility seamless, secure, and stress-free.
                 </p>
               </CardContent>
             </Card>
@@ -172,7 +172,7 @@ export default function Team() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Impact with Intention</h3>
                 <p className="text-gray-600">
-                  From easing travel to solving everyday storage challenges — we’re creating a real difference in how people live, move, and experience freedom.
+                  From easing travel to solving everyday storage challenges - we’re creating a real difference in how people live, move, and experience freedom.
                 </p>
               </CardContent>
             </Card>
@@ -187,7 +187,7 @@ export default function Team() {
              Be Part of the Movement
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            We’re not just building a product — we’re starting a travel revolution. If you're passionate about solving real-world problems, let's build the future together.
+            We’re not just building a product - we’re starting a travel revolution. If you're passionate about solving real-world problems, let's build the future together.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">

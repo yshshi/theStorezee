@@ -55,7 +55,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Got questions? We’ve got answers. Here’s everything you need to know about how Storezee works. Still curious? Reach out to our support team — we’re here to help!
+            Got questions? We’ve got answers. Here’s everything you need to know about how Storezee works. Still curious? Reach out to our support team - we’re here to help!
           </p>
         </div>
       </section>

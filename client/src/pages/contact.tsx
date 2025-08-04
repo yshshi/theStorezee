@@ -55,7 +55,7 @@ export default function Contact() {
             We’d Love to Hear From You
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Whether you’re a traveler, partner, or just curious—reach out. We're always happy to help.
+            Whether you’re a traveler, partner, or just curious - reach out. We're always happy to help.
           </p>
         </div>
       </section>

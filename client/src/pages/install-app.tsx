@@ -19,7 +19,7 @@ export default function InstallApp() {
                   <span className="block text-primary">Storezee App</span>
                 </h1>
                 <p className="text-lg text-gray-600">
-                  With real-time tracking and smart-lock tech, Storezee ensures your luggage stays safe. Download the app now—available on iOS & Android.
+                  With real-time tracking and smart tech, Storezee ensures your luggage stays safe. Download the app now - available on iOS & Android.
                 </p>
               </div>
               
@@ -79,7 +79,7 @@ export default function InstallApp() {
 
   <div className="text-white text-center">
     <h3 className="text-lg font-bold mb-1">Storezee</h3>
-    <p className="text-blue-200 text-sm">Store. Track. Explore.</p>
+    <p className="text-blue-200 text-sm">Book. Store. Explore.</p>
   </div>
 
   {/* <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 space-y-3">
@@ -178,7 +178,7 @@ export default function InstallApp() {
                 </div>
                 <h3 className="text-lg font-semibold mb-3">Real-Time Tracking</h3>
                 <p className="text-gray-600 text-sm">
-                  Know where your luggage is—always. Smart-lock alerts keep you informed every step of the way.
+                  Know where your luggage is - always. smart alerts keep you informed every step of the way.
                 </p>
               </CardContent>
             </Card>
@@ -190,7 +190,7 @@ export default function InstallApp() {
                 </div>
                 <h3 className="text-lg font-semibold mb-3">Quick Support</h3>
                 <p className="text-gray-600 text-sm">
-                  In-app chat means help is just one tap away—no waiting, no stress.
+                  In-app chat means help is just one tap away - no waiting, no stress.
                 </p>
               </CardContent>
             </Card>

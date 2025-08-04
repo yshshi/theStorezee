@@ -1,6 +1,6 @@
 # Storezee - Personal Luggage Assistant Website
 
-A modern, responsive website for Storezee, a personal luggage assistant startup that provides secure luggage storage at verified locker points with smart-lock tracking and real-time delivery via Saathi partners.
+A modern, responsive website for Storezee, a personal luggage assistant startup that provides secure luggage storage at verified locker points with smart tracking and real-time delivery via Saathi partners.
 
 ## Features
 

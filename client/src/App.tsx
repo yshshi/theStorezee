@@ -17,6 +17,8 @@ import Contact from "@/pages/contact";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 
+import ScrollToTop from "./ScrollToTop";
+
 function Router() {
   return (
     <Switch>
@@ -39,9 +41,10 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white overflow-x-hidden w-full">
           <Header />
-          <main>
+          <main className="overflow-x-hidden w-full">
+            <ScrollToTop />
             <Router />
           </main>
           <Footer />

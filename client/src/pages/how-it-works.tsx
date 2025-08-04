@@ -76,7 +76,7 @@ export default function HowItWorks() {
                   </h2>
                 </div>
                 <p className="text-lg text-gray-600">
-                  Pick a convenient pickup time and share your location. Add any instructions for our Saathi — your personal luggage assistant.
+                  Pick a convenient pickup time and share your location. Add any instructions for our Saathi - your personal luggage assistant.
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
                   <div className="flex items-center space-x-2">
@@ -235,7 +235,7 @@ export default function HowItWorks() {
             Ready to Experience Storezee?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Whether it’s travel, errands, or emergencies — your bags are safe with Storezee
+            Whether it’s travel, errands, or emergencies - your bags are safe with Storezee
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">

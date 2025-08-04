@@ -19,7 +19,7 @@ export default function Homepage() {
                 </h1>
                 <p className="text-lg md:text-xl text-blue-100 max-w-lg">
                   Storezee lets anyone securely store their luggage or belongings at nearby partner locations
-                  — with doorstep pickup, live tracking, and flexible durations — all via one app.
+                  - with doorstep pickup, live tracking, and flexible durations - all via one app.
                 </p>
               </div>
 
@@ -45,7 +45,7 @@ export default function Homepage() {
               <div className="flex items-center space-x-8 text-sm">
                 <div className="flex items-center space-x-2">
                   <Shield className="w-5 h-5 text-secondary" />
-                  <span> Secure & Verified Storage Points</span>
+                  <span>Secure & Verified Storage Points</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Clock className="w-5 h-5 text-secondary" />
@@ -53,7 +53,7 @@ export default function Homepage() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="w-5 h-5 text-secondary" />
-                  <span>Not Just for Travelers — For Everyone</span>
+                  <span>Not Just for Travelers-For Everyone</span>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function Homepage() {
                     </div>
                     <div>
                       <p className="font-semibold">Find Nearby Storage</p>
-                      <p className="text-blue-100 text-sm">Drop your bags at 15+ trusted locations instantly</p>
+                      <p className="text-blue-100 text-sm">Drop your bags at nearby storage units instantly</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3 text-white">
@@ -76,7 +76,7 @@ export default function Homepage() {
                     </div>
                     <div>
                       <p className="font-semibold">Book in Seconds</p>
-                      <p className="text-blue-100 text-sm">Quick and easy booking via app — no long forms</p>
+                      <p className="text-blue-100 text-sm">Quick and easy booking via app-no long forms</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3 text-white">
@@ -99,14 +99,14 @@ export default function Homepage() {
 
       {/* Quick Intro Section */}
       <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ml-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:ml-8">
           <div className="flex flex-col md:flex-row md:space-x-16">
             {/* Left side: What is Storezee */}
             <div className="md:w-1/2 mb-12 md:mb-0 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What is Storezee?</h2>
               <p className="text-lg text-gray-600 max-w-xl mx-auto md:mx-0">
                 Storezee is an on-demand, hyperlocal luggage storage and delivery platform, designed for anyone who
-                needs short-term, secure storage — whether you're a traveler, student, shopper, office-goer, or just
+                needs short-term, secure storage.Whether you're a traveler, student, shopper, office-goer, or just
                 someone on the move.
               </p>
             </div>
@@ -151,7 +151,7 @@ export default function Homepage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Nearby Lockers</h3>
                 <p className="text-gray-600">
-                  Discover secure storage spots near you — hosted by verified locals, shops, and businesses you can trust.
+                  Discover secure storage spots near you-hosted by verified locals, shops, and businesses you can trust.
                 </p>
               </CardContent>
             </Card>
@@ -163,7 +163,7 @@ export default function Homepage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Live Tracking</h3>
                 <p className="text-gray-600">
-                  Your luggage stays locked, tracked, and safe — with real-time updates and secure access via live-track tech.
+                  Your luggage stays locked, tracked, and safe-with real-time updates and secure access via live-track tech.
                 </p>
               </CardContent>
             </Card>
@@ -175,7 +175,7 @@ export default function Homepage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Saathi Partners</h3>
                 <p className="text-gray-600">
-                  Saathi partners pick up and deliver your luggage with care — fast, reliable, and verified for your peace of mind.
+                  Saathi partners pick up and deliver your luggage with care-fast, reliable, and verified for your peace of mind.
                 </p>
               </CardContent>
             </Card>
@@ -188,7 +188,7 @@ export default function Homepage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Luggage Protection Guaranteed</h3>
                 <p className="text-gray-600">
-                  In case of any unexpected damage or loss, your luggage is insured. We've got your back — always.
+                  In case of any unexpected damage or loss, your luggage is insured. We've got your back-always.
                 </p>
               </CardContent>
             </Card>
@@ -213,7 +213,7 @@ export default function Homepage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">We Solve What Others Overlook.</h3>
                 <p className="text-gray-600">
-                  Most ignore luggage problems even we don't care until we strucked, that's why we built Storezee to solve them — because your freedom and peace of mind matters.
+                  Most ignore luggage problems even we don't care until we strucked, that's why we built Storezee to solve them-because your freedom and peace of mind matters.
                 </p>
               </CardContent>
             </Card>
@@ -226,7 +226,7 @@ export default function Homepage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Tired of Carrying Bags Around?</h2>
           <p className="text-lg text-gray-600 mb-8">
-            Whether you're exploring, shopping, or running errands — Storezee helps you offload your luggage and enjoy your day stress-free.
+            Whether you're exploring, shopping, or running errands - Storezee helps you offload your luggage and enjoy your day stress-free.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">

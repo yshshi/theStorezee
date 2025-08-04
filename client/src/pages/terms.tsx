@@ -31,7 +31,7 @@ export default function Terms() {
               <ul className="list-disc list-inside text-gray-600 mt-4 space-y-2">
                 <li>Mobile app for booking storage locations</li>
                 <li>Saathi partner pickup and delivery service</li>
-                <li>Smart-lock tracking technology</li>
+                <li>smart tracking technology</li>
                 <li>Customer support and assistance</li>
               </ul>
             </section>

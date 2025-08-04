@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
           </Link>
             <p className="text-gray-300 leading-relaxed">
-              Your personal luggage assistant — offering secure, on-demand storage at verified local spots with smart tracking and trusted Saathi delivery partners.</p>
+              Your personal luggage assistant - offering secure, on-demand storage at verified local spots with smart tracking and trusted Saathi delivery partners.</p>
             <div className="flex space-x-4">
               <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
                 <SiX className="w-5 h-5" />
@@ -52,7 +52,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link href="/how-it-works">
-                  <span className="text-gray-300 hover:text-white transition-colors">How It Works</span>
+                  <span className="text-gray-300 hover:text-white transition-colors">How We Work</span>
                 </Link>
               </li>
               <li>
@@ -164,9 +164,9 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               © 2025 Storezee. All rights reserved.
             </p>
-            <div className="flex items-center space-x-6 text-sm text-gray-400">
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-xs sm:text-sm text-gray-400">
               <span>Made with ❤️ in India and for Moon</span>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 sm:space-x-4">
                 <img 
                   src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
                   alt="Download on App Store" 
