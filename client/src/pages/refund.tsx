@@ -141,7 +141,7 @@ export default function Refund() {
                 For refund requests or questions about this policy, contact us:
               </p>
               <div className="mt-4 text-gray-600">
-                <p>Email: refunds@storezee.com</p>
+                <p>Email: refundsinfo@thestorezee.com</p>
                 <p>Phone: +91 70915 17586</p>
                 <p>In-app support: Available 24/7</p>
                 <p>Response time: Within 24 hours</p>

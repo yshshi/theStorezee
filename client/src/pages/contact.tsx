@@ -164,7 +164,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Email</h4>
-                        <p className="text-gray-600">support@storezee.com</p>
+                        <p className="text-gray-600">supportinfo@thestorezee.com</p>
                         <p className="text-sm text-gray-500">We respond within 2 hours</p>
                       </div>
                     </div>
@@ -257,9 +257,9 @@ export default function Contact() {
                 <p className="text-gray-600 text-sm mb-4">
                   Have space to offer? Join our network of verified storage locations.
                 </p>
-                <a href="mailto:partners@storezee.com">
+                <a href="mailto:partnersinfo@thestorezee.com">
                   <Button variant="outline" size="sm" className="rounded-xl">
-                    partners@storezee.com
+                    partnersinfo@thestorezee.com
                   </Button>
                 </a>
               </CardContent>
@@ -271,9 +271,9 @@ export default function Contact() {
                 <p className="text-gray-600 text-sm mb-4">
                   Join our delivery team and earn income with flexible hours.
                 </p>
-                <a href="mailto:saathi@storezee.com">
+                <a href="mailto:saathiinfo@thestorezee.com">
                   <Button variant="outline" size="sm" className="rounded-xl">
-                    saathi@storezee.com
+                    saathiinfo@thestorezee.com
                   </Button>
                 </a>
               </CardContent>

@@ -98,7 +98,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:legal@storezee.com" className="text-gray-300 hover:text-white transition-colors">
+                <a href="mailto:legalinfo@thestorezee.com" className="text-gray-300 hover:text-white transition-colors">
                   Legal Inquiries
                 </a>
               </li>
@@ -111,7 +111,7 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary" />
-                <span className="text-gray-300">support@storezee.com</span>
+                <span className="text-gray-300">supportinfo@thestorezee.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
