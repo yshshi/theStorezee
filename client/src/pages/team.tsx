@@ -198,7 +198,7 @@ export default function Team() {
             </Link>
             <a href="mailto:careersinfo@thestorezee.com">
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-2xl">
-                careersinfo@thestorezee.com
+                info@thestorezee.com
               </Button>
             </a>
           </div>

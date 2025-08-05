@@ -111,7 +111,7 @@ Storezee and its partners are not responsible for any claims of missing items po
                 For questions about these Terms of Service, please contact us at:
               </p>
               <div className="mt-4 text-gray-600">
-                <p>Email: legalinfo@thestorezee.com</p>
+                <p>Email: info@thestorezee.com</p>
                 <p>Phone: +91 70915 17586</p>
                 <p>Address: Dhanbad, Jharkhand, India 828109</p>
               </div>

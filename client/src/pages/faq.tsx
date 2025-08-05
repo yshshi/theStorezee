@@ -199,7 +199,7 @@ export default function FAQ() {
                 Contact Support
               </Button>
             </Link>
-            <a href="mailto:supportinfo@thestorezee.com">
+            <a href="mailto:info@thestorezee.com">
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-2xl">
                 Email Us Directly
               </Button>
@@ -207,7 +207,7 @@ export default function FAQ() {
           </div>
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Email: supportinfo@thestorezee.com | Phone: +91 7091517586</p>
+            <p>Email: info@thestorezee.com | Phone: +91 7091517586</p>
             <p>Average response time: Under 2 hours</p>
           </div>
         </div>

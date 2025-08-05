@@ -149,7 +149,7 @@ export default function Privacy() {
                 please contact us at:
               </p>
               <div className="mt-4 text-gray-600">
-                <p>Email: privacyinfo@thestorezee.com</p>
+                <p>Email: info@thestorezee.com</p>
                 <p>Phone: +91 70915 17586</p>
                 <p>Address: Dhanbad, Jharkhand, India 828109</p>
               </div>
