@@ -16,15 +16,16 @@ export default function Team() {
   const teamMembers = [
     
     {
-      name: "Yash Kant Singh",
+      name: "Yash",
       description: "From decisions to direction — He set the pace.",
-       linkedin: "https://www.linkedin.com/in/yash-singh-034bb8221",
+      image: yashpic,
+      linkedin: "https://www.linkedin.com/in/yash-singh-034bb8221",
       twitter: "https://x.com/YshSngh2?t=J9ICeydbJCPQaW_mv9nqFQ&s=09",
       email: "yashkant.singh0123@gmail.com",
    },
 
     {
-     name: "Ashutosh Singh",
+     name: "Ashutosh",
       description: "He don’t just use technology — He invent it",
       image: ashutosh,
       linkedin: "https://www.linkedin.com/in/ashutosh-singh-10b62a19b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -32,15 +33,15 @@ export default function Team() {
       email: "ashutosh.singh2780@gmail.com",
     },
     {
-      name: "Rahul Mahato",
-      description: "He manage finances",
+      name: "Rahul",
+      description: "Manage our money like a pro",
       image: rahul1,
       linkedin: "https://www.linkedin.com/in/rahul-mahato-288366357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       twitter: "https://x.com/rahulmahato45",
       email: "mahatorahul81@gmail.com",
     },
     {
-      name: "Md Nishan Khan",
+      name: "Nishan",
       description: "He didn't chase people, He chase logic errors",
       image: nishan,
       linkedin: "#",
@@ -48,7 +49,7 @@ export default function Team() {
       email: "khannishan713@gmail.com",
     },
     {
-      name: "Ritik Choudhary",
+      name: "Ritik",
       description: "He get's the things done",
       image: ritik,
       linkedin: "#",
@@ -56,8 +57,8 @@ export default function Team() {
       email: "Kumarritik1227@gmail.com",
     },
     {
-      name: "Rahul Kumar Mahto",
-      description: "Business development leader who expands our storage location network and builds relationships with local communities.",
+      name: "Rahul Kumar",
+      description: "Chief vibe officer",
       image: rahul2,
       linkedin: "#",
       twitter: "#",
@@ -73,22 +74,22 @@ export default function Team() {
    },
    {
     name: "Ritik Kumar",
-    description: "#",
+    description: "He is the 2nd boss around.",
     image:"",
     linkedin: "#",
     twitter: "#",
     email: "rk6203434@gmail.com",
    },
    {
-    name: "Kamal kant singh",
-    description: "He is the boss around ",
+    name: "Kamal",
+    description: "He is the boss around.",
     image:"",
     linkedin: "#",
     twitter: "#",
     email: "kamalkantsingh004@gmail.com",
    },
    {
-    name: "Raj kant singh",
+    name: "Raj Kant",
     description: "we dont know what he do, because he do all the things",
     image:"",
     linkedin: "#",
@@ -104,7 +105,7 @@ export default function Team() {
       email: "singhkumarayush0970@gmail.com",
    },
    {
-    name: "Francis Patra",
+    name: "Francis",
       description: "Not just a designer—He is a visual storyteller",
       image:"",
       linkedin: "#",
@@ -112,7 +113,7 @@ export default function Team() {
       email: "fpatra651@gmail.com"
    },
    {
-    name: "Ayush kumar mahto",
+    name: "Ayush Kumar",
       description: "Managing vibes, not just a page",
       image:"",
       linkedin: "#",
@@ -131,8 +132,8 @@ export default function Team() {
              Powering Storezee
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Entrepreneurs. Engineers. Dreamers. All focused on redefining travel.
-            <p>People build companies. Our team builds the solutions to let you fly.</p>
+            Hustlers. Young. Dreamers. Focused on redefining what's possible.
+            <p>PPeople build companies. We build the solutions that help you soar.</p>
           </p>
         </div>
       </section>

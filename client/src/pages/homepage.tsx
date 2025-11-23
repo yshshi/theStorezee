@@ -100,9 +100,9 @@ export default function Homepage() {
       <section className="py-16 bg-gray-50">
        <div
             className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:ml-8"
-            style={{ marginLeft: "120px" }}
+            
             >
-          <div className="flex flex-col md:flex-row md:space-x-16">
+          <div className="flex flex-col md:flex-row md:space-x-16"style={{ marginLeft: "120px" }}>
             {/* Left side: What is Storezee */}
             <div className="md:w-1/2 mb-12 md:mb-0 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What is Storezee? The Hyperlocal Luggage Storage & Delivery App</h2>

@@ -2,10 +2,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Smartphone, Download, QrCode, Apple, Zap, Shield } from "lucide-react";
 import { SiAndroid, SiApple } from "react-icons/si";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { useState } from "react";
 
 import logo from "../assests/storezee_logo.png"
+import qr from "../assests/storezee_qr.jpeg"
 
 export default function InstallApp() {
+   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="py-16">
       {/* Hero Section */}
@@ -24,13 +28,29 @@ export default function InstallApp() {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://apps.apple.com/app/storezee" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="w-full sm:w-auto text-lg px-8 py-6 rounded-2xl bg-black hover:bg-gray-800">
-                    <SiApple className="w-6 h-6 mr-3" />
-                    App Store
-                  </Button>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.storezee" target="_blank" rel="noopener noreferrer">
+                <TooltipProvider>
+                  <Tooltip open={isOpen} onOpenChange={setIsOpen}>
+                    <TooltipTrigger asChild>
+                      <div
+                        onClick={() => setIsOpen(true)} // show on click
+                        className="cursor-pointer inline-block"
+                      >
+                        <Button
+                          size="lg"
+                          className="w-full sm:w-auto text-lg px-8 py-6 rounded-2xl bg-black hover:bg-gray-800"
+                        >
+                          <SiApple className="w-6 h-6 mr-3" />
+                          App Store
+                        </Button>
+                      </div>
+                    </TooltipTrigger>
+
+                    <TooltipContent>
+                      We are coming soon on App Store!
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+                <a href="https://play.google.com/store/apps/details?id=com.storezee.user&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="w-full sm:w-auto text-lg px-8 py-6 rounded-2xl">
                     <SiAndroid className="w-6 h-6 mr-3" />
                     Google Play
@@ -135,12 +155,19 @@ export default function InstallApp() {
               <div className="flex-shrink-0">
                 <div className="w-48 h-48 bg-gray-100 rounded-2xl flex items-center justify-center border-2 border-dashed border-gray-300">
                   <div className="text-center">
-                    <QrCode className="w-16 h-16 text-gray-400 mx-auto mb-2" />
+                    {/* Replace with your QR code image */}
+                    <img
+                      src={qr}
+                      alt="QR Code"
+                      className="w-32 h-32 mx-auto mb-2"
+                    />
+
                     <p className="text-gray-500 text-sm">QR Code</p>
                     <p className="text-gray-400 text-xs">Scan to download</p>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -245,13 +272,30 @@ export default function InstallApp() {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="https://apps.apple.com/app/storezee" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" className="text-lg px-8 py-6 rounded-2xl bg-black hover:bg-gray-800">
-                <SiApple className="w-6 h-6 mr-3" />
-                Download for iOS
-              </Button>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.storezee" target="_blank" rel="noopener noreferrer">
+            <TooltipProvider>
+              <Tooltip open={isOpen} onOpenChange={setIsOpen}>
+                <TooltipTrigger asChild>
+                  {/* Use div to prevent navigation */}
+                  <div
+                    onClick={() => setIsOpen(true)} // show tooltip on click
+                    className="inline-block cursor-pointer"
+                  >
+                    <Button
+                      size="lg"
+                      className="text-lg px-8 py-6 rounded-2xl bg-black hover:bg-gray-800"
+                    >
+                      <SiApple className="w-6 h-6 mr-3" />
+                      Download for iOS
+                    </Button>
+                  </div>
+                </TooltipTrigger>
+
+                <TooltipContent>
+                  We are coming soon on App Store!
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+            <a href="https://play.google.com/store/apps/details?id=com.storezee.user&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-2xl">
                 <SiAndroid className="w-6 h-6 mr-3" />
                 Download for Android
