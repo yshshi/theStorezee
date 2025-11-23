@@ -10,62 +10,116 @@ import gaurav from "../assests/gaurav.jpeg";
 import rahul1 from "../assests/rahulfinal.jpeg";
 import rahul2 from "../assests/rahuk2.jpeg";
 import ritik from "../assests/ritikiorg.jpeg";
+import nishan from "../assests/nishu.jpg";
+
 export default function Team() {
   const teamMembers = [
+    
     {
       name: "Yash Kant Singh",
-      role: "Founder & CEO",
-      description: "Former Software Developer at major tech startup. Passionate about solving real traveler problems with innovative technology.",
-      image: yashpic,
-      linkedin: "https://www.linkedin.com/in/yash-singh-034bb8221",
+      description: "From decisions to direction — He set the pace.",
+       linkedin: "https://www.linkedin.com/in/yash-singh-034bb8221",
       twitter: "https://x.com/YshSngh2?t=J9ICeydbJCPQaW_mv9nqFQ&s=09",
-      email: "yashkantsingh3@gmail.com"
-    },
+      email: "yashkant.singh0123@gmail.com",
+   },
+
     {
-      name: "Ashutosh Singh",
-      role: "CTO",
-      description: "Former cloud engineer with deep expertise in server and infra setup. Oversees all technical set-up ensure smooth software developement and drives platform scalability.",
+     name: "Ashutosh Singh",
+      description: "He don’t just use technology — He invent it",
       image: ashutosh,
       linkedin: "https://www.linkedin.com/in/ashutosh-singh-10b62a19b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       twitter: "https://x.com/singh_ashu10?s=21",
-      email: "ashutosh.singh2780@gmail.com"
+      email: "ashutosh.singh2780@gmail.com",
     },
     {
       name: "Rahul Mahato",
-      role: "Head of Finance",
-      description: "Expertise in finance and user management .Numbers-first leader who manages our cash flow, compliance, and forecasting. Keeps the company financially strong and future-ready.",
+      description: "He manage finances",
       image: rahul1,
       linkedin: "https://www.linkedin.com/in/rahul-mahato-288366357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       twitter: "https://x.com/rahulmahato45",
-      email: "mahatorahul81@gmail.com"
+      email: "mahatorahul81@gmail.com",
     },
     {
-      name: "Gaurav Singh",
-      role: "Head of Management",
-      description: "An expert in operations and team coordination, Gaurav ensures smooth execution across departments. With a sharp focus on strategy and people management, he drives our vision into action.",
-      image: gaurav,
+      name: "Md Nishan Khan",
+      description: "He didn't chase people, He chase logic errors",
+      image: nishan,
       linkedin: "#",
-      twitter: "https://x.com/Gauravspecter?t=O8phmE51CI23dRC_zOmAYQ&s=08",
-      email: "gauravmoon72@gmail.com"
+      twitter: "#",
+      email: "khannishan713@gmail.com",
     },
     {
       name: "Ritik Choudhary",
-      role: "Head of Operations",
-      description: "Operations expert who built our Saathi partner network. Ensures seamless delivery operations across all locations.",
+      description: "He get's the things done",
       image: ritik,
       linkedin: "#",
       twitter: "#",
-      email: "Kumarritik1227@gmail.com"
+      email: "Kumarritik1227@gmail.com",
     },
     {
       name: "Rahul Kumar Mahto",
-      role: "Head of Logistics",
       description: "Business development leader who expands our storage location network and builds relationships with local communities.",
       image: rahul2,
       linkedin: "#",
       twitter: "#",
-      email: "rk3464320@gmail.com"
-    }
+      email: "rk3464320@gmail.com",
+     },
+     {
+      name: "Piyush",
+      description: "Turning ideas into reality- A magician",
+      image:"",
+      linkedin: "#",
+      twitter: "#",
+      email: "contact.piyush@zohomail.in",
+   },
+   {
+    name: "Ritik Kumar",
+    description: "#",
+    image:"",
+    linkedin: "#",
+    twitter: "#",
+    email: "rk6203434@gmail.com",
+   },
+   {
+    name: "Kamal kant singh",
+    description: "He is the boss around ",
+    image:"",
+    linkedin: "#",
+    twitter: "#",
+    email: "kamalkantsingh004@gmail.com",
+   },
+   {
+    name: "Raj kant singh",
+    description: "we dont know what he do, because he do all the things",
+    image:"",
+    linkedin: "#",
+    twitter: "#",
+    email: "rajkantsingh007@gmail.com",
+   },
+   {
+    name: "Ayush Singh",
+      description: "He is moving the things so the world doesn’t stop.",
+      image:"",
+      linkedin: "#",
+      twitter: "#",
+      email: "singhkumarayush0970@gmail.com",
+   },
+   {
+    name: "Francis Patra",
+      description: "Not just a designer—He is a visual storyteller",
+      image:"",
+      linkedin: "#",
+      twitter: "#",
+      email: "fpatra651@gmail.com"
+   },
+   {
+    name: "Ayush kumar mahto",
+      description: "Managing vibes, not just a page",
+      image:"",
+      linkedin: "#",
+      twitter: "#",
+      email: "ayushmahatohere@gmail.com",
+   },
+    
   ];
 
   return (
@@ -74,7 +128,7 @@ export default function Team() {
       <section className="bg-gradient-to-br from-primary/10 to-blue-50 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            The People Powering Storezee
+             Powering Storezee
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Entrepreneurs. Engineers. Dreamers. All focused on redefining travel.
@@ -101,7 +155,7 @@ export default function Team() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-white">
                 <h3 className="text-lg font-semibold">{member.name}</h3>
-                <p className="text-blue-200 text-sm">{member.role}</p>
+               
               </div>
             </div>
             <div className="p-4">
