@@ -34,13 +34,13 @@ export default function Footer() {
               <a href="https://x.com/thestorezee?t=nOSMRaa5GGt87iz2UHeTKQ&s=09" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
                 <SiX className="w-5 h-5" />
               </a>
-              <a href="https://www.facebook.com/share/1BR8uEqJH8/" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61584367220898&sfnsn=wa" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
                 <SiFacebook className="w-5 h-5" />
               </a>
               <a href="https://www.instagram.com/the_storezee?igsh=MTZ5ZG41aXo5bmtqbA==" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
                 <SiInstagram className="w-5 h-5" />
               </a>
-              <a href="https://www.linkedin.com/in/store-zee-5b051a39a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+              <a href="https://www.linkedin.com/company/storezee/" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
                 <SiLinkedin className="w-5 h-5" />
               </a>
             </div>
