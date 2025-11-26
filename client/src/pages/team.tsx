@@ -3,22 +3,28 @@ import { Button } from "@/components/ui/button";
 import { Linkedin, Twitter, Mail } from "lucide-react";
 import { Link } from "wouter";
 // Import the logo image relative to this file
-import yash from "../assests/yash.jpeg"
-import yashpic from "../assests/yash.jpeg"; // adjust the relative path if needed
-import ashutosh from "../assests/ashutosh.jpeg";
-import gaurav from "../assests/gaurav.jpeg";
-import rahul1 from "../assests/rahulfinal.jpeg";
-import rahul2 from "../assests/rahuk2.jpeg";
-import ritik from "../assests/ritikiorg.jpeg";
-import nishan from "../assests/nishu.jpg";
+import yash from "../assests/yashhhhhhhhhh.jpeg";
+import ashutosh from "../assests/ashu.jpeg";
+import rahul1 from "../assests/rahulgym.jpeg";
+import nishan from "../assests/nishu.jpeg";
+import ritik from "../assests/ritik (2).jpeg";
+import rahul2 from "../assests/rahulchomu.jpeg";
+import piyush from "../assests/piyush.jpeg";
+import raj from "../assests/raj.jpeg";
+import kamal from "../assests/kamal.jpeg";
+import ritikkumar from "../assests/tiny.jpeg";
+import anubhav from "../assests/anubhav.jpeg";
+import ayush from "../assests/ayuMahto.jpeg";
+import francis from "../assests/francis.jpeg";
+import ayushkumar from "../assests/ayushSingh.jpeg";
 
 export default function Team() {
   const teamMembers = [
     
     {
       name: "Yash",
-      description: "From decisions to direction — He set the pace.",
-      image: yashpic,
+      description: "Lead the pack.",
+      image: yash,
       linkedin: "https://www.linkedin.com/in/yash-singh-034bb8221",
       twitter: "https://x.com/YshSngh2?t=J9ICeydbJCPQaW_mv9nqFQ&s=09",
       email: "yashkant.singh0123@gmail.com",
@@ -26,7 +32,7 @@ export default function Team() {
 
     {
      name: "Ashutosh",
-      description: "He don’t just use technology — He invent it",
+      description: "He is the tech guy",
       image: ashutosh,
       linkedin: "https://www.linkedin.com/in/ashutosh-singh-10b62a19b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       twitter: "https://x.com/singh_ashu10?s=21",
@@ -34,15 +40,15 @@ export default function Team() {
     },
     {
       name: "Rahul",
-      description: "Manage our money like a pro",
-      image: rahul1,
+      description: "Manage our money",
+      image: rahul2,
       linkedin: "https://www.linkedin.com/in/rahul-mahato-288366357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       twitter: "https://x.com/rahulmahato45",
       email: "mahatorahul81@gmail.com",
     },
     {
       name: "Nishan",
-      description: "He didn't chase people, He chase logic errors",
+      description: "He writes the code",
       image: nishan,
       linkedin: "#",
       twitter: "#",
@@ -59,39 +65,47 @@ export default function Team() {
     {
       name: "Rahul Kumar",
       description: "Chief vibe officer",
-      image: rahul2,
+      image: rahul1,
       linkedin: "#",
       twitter: "#",
       email: "rk3464320@gmail.com",
      },
      {
       name: "Piyush",
-      description: "Turning ideas into reality- A magician",
-      image:"",
+      description: "Turning ideas into reality- A magician(might be the storezee god).",
+      image: piyush,
       linkedin: "#",
       twitter: "#",
       email: "contact.piyush@zohomail.in",
    },
    {
-    name: "Ritik Kumar",
-    description: "He is the 2nd boss around.",
-    image:"",
-    linkedin: "#",
-    twitter: "#",
-    email: "rk6203434@gmail.com",
-   },
-   {
     name: "Kamal",
     description: "He is the boss around.",
-    image:"",
+    image: kamal,
     linkedin: "#",
     twitter: "#",
     email: "kamalkantsingh004@gmail.com",
    },
    {
+    name: "Ritik Kumar",
+    description: "He is the 2nd boss around.",
+    image: ritikkumar,
+    linkedin: "#",
+    twitter: "#",
+    email: "rk6203434@gmail.com",
+   },
+   {
+    name: "Anubhav Kumar",
+      description: "He is the 3rd boss around.",
+      image:anubhav,
+      linkedin: "#",
+      twitter: "#",
+      email: "anubhavkumar8709@gmail.com",
+   },
+   {
     name: "Raj Kant",
     description: "we dont know what he do, because he do all the things",
-    image:"",
+    image: raj,
     linkedin: "#",
     twitter: "#",
     email: "rajkantsingh007@gmail.com",
@@ -99,15 +113,15 @@ export default function Team() {
    {
     name: "Ayush Singh",
       description: "He is moving the things so the world doesn’t stop.",
-      image:"",
+      image:ayushkumar,
       linkedin: "#",
       twitter: "#",
       email: "singhkumarayush0970@gmail.com",
    },
    {
     name: "Francis",
-      description: "Not just a designer—He is a visual storyteller",
-      image:"",
+      description: "He is a visual storyteller",
+      image: francis,
       linkedin: "#",
       twitter: "#",
       email: "fpatra651@gmail.com"
@@ -115,7 +129,7 @@ export default function Team() {
    {
     name: "Ayush Kumar",
       description: "Managing vibes, not just a page",
-      image:"",
+      image: ayush,
       linkedin: "#",
       twitter: "#",
       email: "ayushmahatohere@gmail.com",
@@ -133,7 +147,7 @@ export default function Team() {
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Hustlers. Young. Dreamers. Focused on redefining what's possible.
-            <p>PPeople build companies. We build the solutions that help you soar.</p>
+            <p>People build companies. We build the solutions that help you soar.</p>
           </p>
         </div>
       </section>
@@ -150,7 +164,7 @@ export default function Team() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-40 h-40 object-cover mx-auto"
+                  className="w-45 h-40 object-cover mx-auto"
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
