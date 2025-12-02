@@ -17,6 +17,8 @@ import anubhav from "../assests/anubhav.jpeg";
 import ayush from "../assests/ayuMahto.jpeg";
 import francis from "../assests/francis.jpeg";
 import ayushkumar from "../assests/ayushSingh.jpeg";
+import ojha from "../assests/ojha.jpg"
+import sachin from "../assests/sachine.jpg"
 
 export default function Team() {
   const teamMembers = [
@@ -95,7 +97,7 @@ export default function Team() {
     email: "rk6203434@gmail.com",
    },
    {
-    name: "Anubhav Kumar",
+    name: "Anubhav",
       description: "He is the 3rd boss around.",
       image:anubhav,
       linkedin: "#",
@@ -130,6 +132,22 @@ export default function Team() {
     name: "Ayush Kumar",
       description: "Managing vibes, not just a page",
       image: ayush,
+      linkedin: "#",
+      twitter: "#",
+      email: "ayushmahatohere@gmail.com",
+   },
+    {
+    name: "Ashutosh Ojha",
+      description: "Medicine for our stress",
+      image: ojha,
+      linkedin: "https://www.linkedin.com/in/ashutosh-ojha-94784239b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      twitter: "#",
+      email: "ashutosh141076@gmail.com",
+   },
+   {
+    name: "Sachin",
+      description: "The Serious Guy",
+      image: sachin,
       linkedin: "#",
       twitter: "#",
       email: "ayushmahatohere@gmail.com",
